@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Leaflet base styles */
+@import "leaflet/dist/leaflet.css";
+
+/* Custom Leaflet marker styles */
+.fleet-marker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 2px solid white;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  font-size: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease;
+}
+
+.fleet-marker:hover {
+  transform: scale(1.2);
+}
+
+.fleet-marker.T1 {
+  background-color: #ef4444;
+}
+
+.fleet-marker.T2 {
+  background-color: #3b82f6;
+}
+
+.fleet-marker.T3 {
+  background-color: #10b981;
+}
+
+.fleet-marker.T4 {
+  background-color: #f59e0b;
+}
+
+.fleet-marker.T5 {
+  background-color: #8b5cf6;
+}
+
+.route-line {
+  stroke-width: 2;
+  opacity: 0.6;
+  fill: none;
+}
+
+.route-line.T1 {
+  stroke: #ef4444;
+}
+
+.route-line.T2 {
+  stroke: #3b82f6;
+}
+
+.route-line.T3 {
+  stroke: #10b981;
+}
+
+.route-line.T4 {
+  stroke: #f59e0b;
+}
+
+.route-line.T5 {
+  stroke: #8b5cf6;
+}

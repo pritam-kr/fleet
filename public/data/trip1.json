@@ -1,0 +1,13 @@
+{
+  "tripId": "T1",
+  "events": [
+    {
+      "tripId": "T1",
+      "timestamp": 1699101600000,
+      "lat": 37.7749,
+      "lng": -122.4194,
+      "speed": 0,
+      "eventType": "STOPPED"
+    }
+  ]
+}
